@@ -15,6 +15,14 @@ body {
     margin: 0;
 }
 
+.bar2 {
+    background-color: #3F4C5B;
+    display: block;
+    height: 70px;
+    width: 100%;
+    margin: 0;
+}
+
 .padded {
     padding: 15px;
 }
@@ -32,6 +40,14 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.row-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -67,6 +83,11 @@ a {
     text-decoration: underline solid transparent;
     transition: text-decoration 1s ease;
     color: black;
+}
+
+.trad_link {
+    color: blue;
+    text-decoration: underline;
 }
 
 .link_text:hover {
@@ -149,10 +170,20 @@ h3 {
     margin-bottom:0;
 }
 
+h4 {
+    font-size: 20px;
+    margin:0;
+}
+
 .overlay_section {
     position:absolute;
     right: 5%;
     margin-top: -45%;
+}
+
+.overlay_section2 {
+    position:absolute;
+    right: 45%;
 }
 
 hr {
