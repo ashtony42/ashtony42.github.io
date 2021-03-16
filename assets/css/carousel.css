@@ -110,3 +110,10 @@
     -moz-box-shadow: 0 0 2px #F0EFE7;
     box-shadow: 0 0 2px #F0EFE7;
 }
+
+.carousel_font {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}

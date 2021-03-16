@@ -114,7 +114,7 @@ a {
     margin: auto;
 }
 
-.donate_btn {
+.red_btn {
     background-color: #f75954;
     padding: 24px 47px;
     font-family: playfair display,serif;
@@ -179,7 +179,6 @@ h4 {
 .overlay_section {
     position:absolute;
     right: 5%;
-    margin-top: -45%;
 }
 
 .overlay_section2 {
